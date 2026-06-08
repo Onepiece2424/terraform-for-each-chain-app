@@ -1,9 +1,9 @@
 terraform {
-  cloud {
-    workspaces {
-      name = "learn-terraform-for-each"
-    }
-  }
+  # cloud {
+  #   workspaces {
+  #     name = "learn-terraform-for-each"
+  #   }
+  # }
 
   required_providers {
     aws = {
